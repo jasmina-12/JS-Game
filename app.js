@@ -13,11 +13,11 @@ function getRandomNumbers(num) {
 
 function setImageAttribute(random_num, img) {
   if (random_num == 0) {
-    img.setAttribute("src", "./img/rock.png");
+    img.setAttribute("src", "./rock.png");
   } else if (random_num == 1) {
-    img.setAttribute("src", "./img/qaychi.png");
+    img.setAttribute("src", "./qaychi.png");
   } else {
-    img.setAttribute("src", "./img/paper.png");
+    img.setAttribute("src", "./paper.png");
   }
 }
 
