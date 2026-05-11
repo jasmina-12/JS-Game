@@ -15,7 +15,7 @@ function setImageAttribute(random_num, img) {
   if (random_num == 0) {
     img.setAttribute("src", "./rock.png");
   } else if (random_num == 1) {
-    img.setAttribute("src", "./qaychi.png");
+    img.setAttribute("src", "./scissors.png");
   } else {
     img.setAttribute("src", "./paper.png");
   }
